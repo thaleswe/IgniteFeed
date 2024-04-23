@@ -29,13 +29,13 @@
     color: var(--green-300);
 }
 
-.post header {
+.post > header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.post header time {
+.post > header time {
     font-size: 0.875rem;
     color: var(--gray-400);
 }
@@ -124,4 +124,8 @@
 
 .commentForm button[type=submit]:hover {
     background: var(--green-300);
+}
+
+.commentList {
+    margin-top: 2rem;
 }
